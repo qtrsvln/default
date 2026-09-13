@@ -42,7 +42,7 @@ export const Header: React.FC<HeaderProps> = ({
           {/* Tomato with Tablet Companion Logo */}
           <div className="w-10 h-10 flex items-center justify-center group-hover:scale-105 transition-transform">
             <img
-              src="/logo.svg"
+              src={`${import.meta.env.BASE_URL}logo.svg`}
               alt="Kitchen Companion - Tomato with Tablet Logo"
               className="w-full h-full object-contain"
               referrerPolicy="no-referrer"
