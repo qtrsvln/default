@@ -4,7 +4,7 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
-  return {base: process.env.GITHUB_ACTIONS ? '/Kitchen-companion/' : './',
+  return {base: process.env.GITHUB_ACTIONS ? '/default/' : './',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
